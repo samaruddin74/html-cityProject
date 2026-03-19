@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <div class="header-img">
+       <img src="img/header1.jpg" alt="Beschreibung" class="mein-bild">
+    </div>
+   </header>
+   <section>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Start</a></li>
+            <li><a href="london.html">London</a></li>
+            <li><a href="paris.html">Paris</a></li>
+            <li><a href="tokyo.html">Tokyo</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>Capitals</h2>
+        <p>These are the most famous Capital in the World : London, Paris , Tokyo</p>
+        <div class="city-cards">
+            <div class="city-card">
+                <a href="london.html"> <img src="img/london.jpg" alt=""></a>
+                <a href="london.html"><span class="city-name">London</span></a>
+            </div>
+             <div class="city-card">
+                <a href="paris.html"> <img src="img/paris.jpg" alt=""></a>
+               <a href="paris.html"> <span class="city-name">Paris</span></a>
+            </div>
+             <div class="city-card">
+                <a href="tokyo.html"> <img src="img/tokyo.jpg" alt=""></a>
+                <a href="tokyo.html"><span class="city-name">Tokyo</span></a>
+            </div>
+        </div>
+    </article>
+   </section>
+   <form class="contact-form">
+  <h2>KONTAKTFORMULAR</h2>
+
+  <div class="form-row">
+    <select name="anrede" required>
+      <option value="" disabled selected>Anrede*</option>
+      <option value="herr">Herr</option>
+      <option value="frau">Frau</option>
+    </select>
+
+    <input type="text" name="nachname" placeholder="Nachname*" required>
+  </div>
+
+  <div class="form-row">
+    <input type="text" name="vorname" placeholder="Vorname*" required>
+    <input type="email" name="email" placeholder="Mailadresse*" required>
+  </div>
+
+  <div class="form-row">
+    <select name="standort">
+      <option value="" disabled selected>Standort</option>
+      <option value="aachen">Aachen</option>
+      <option value="koeln">Köln</option>
+      <!-- weitere Optionen -->
+    </select>
+  </div>
+
+  <textarea name="nachricht" placeholder="Nachricht"></textarea>
+
+  <div class="checkbox-row">
+    <label>
+      <input type="checkbox" name="rueckruf"> Sollen wir Sie zurückrufen?
+    </label>
+  </div>
+
+  <p class="info-text">
+    * Mit dem Absenden des Formulars erkläre ich mich mit der
+    <a href="#">Datenschutzerklärung</a> der contact GmbH einverstanden.
+  </p>
+
+  <p class="info-text">
+    * Diese Website ist durch reCAPTCHA geschützt und es gelten die
+    <a href="#">Datenschutzerklärung</a> und die <a href="#">Nutzungsbedingungen</a> von Google.
+  </p>
+
+  <button type="submit">Nachricht senden</button>
+</form>
+
+    <footer>
+  <div class="footer-contacts">
+    <div class="contact">
+      <strong>City Tor Baesweiler</strong><br>
+      Königsberweg 2<br>
+      52499 Baesweiler<br>
+      <br>
+      +49-17646606127<br>
+      Citytor.baesweiler.de
+    </div>
+    <div class="contact">
+      <strong>CityTor Köln</strong><br>
+      Sachsenring 45 – 47<br>
+      50677 Köln<br>
+      <br>
+      0221 / 4442225555<br>
+      koeln@citytor.de
+    </div>
+    <div class="social-icons">
+      <a href="https//:facebook.com" aria-label="Facebook"><img src="img/facebook.png" alt="Facebook"></a>
+      <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <nav>
+      <a href="#">Datenschutz</a> |
+      <a href="#">Impressum</a>
+    </nav>
+    <span>© 2025</span>
+  </div>
+</footer>
+</body>
+</html>
